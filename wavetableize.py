@@ -37,3 +37,16 @@ def wav_to_numpy(file):
     array = wav[0]
 
     return array
+
+
+
+# Function for converting digital elevation model to numpy array and then to wav
+# file that will correctly reconstruct the DEM when viewed as a 3D wavetable
+# in a wavetable synth like Vital or Serum
+
+
+
+# Function for converting photograph data (choosing simple luminance or one of
+# the RGB channels for the data) into a wav file that will correctly reconstruct
+# the photograph when viewed as a 3D wavetable in a wavetable synth like Vital
+# or Serum
